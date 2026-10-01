@@ -1,4 +1,4 @@
-# 🔗 Rapport Week 4 Anas
+# Rapport Week 4 Anas
 
 ---
 
