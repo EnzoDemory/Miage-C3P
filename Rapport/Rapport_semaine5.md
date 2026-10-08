@@ -22,4 +22,4 @@ Dans le cadre du TP, j’ai travaillé sur :
 - **Implement more bot gaming strategies** : j’ai séparé la façon de choisir un coup de la façon de jouer un coup, pour pouvoir brancher facilement différentes stratégies dans le jeu.
 
 
-Lien GitHub : [Lien vers TP](https://github.com/AbdellaouiHajar1/tp_chess.git)
+Lien GitHub : [Lien vers TP](https://github.com/AbdellaouiHajar1/tp_chess/tree/main)
