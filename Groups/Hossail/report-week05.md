@@ -22,3 +22,21 @@ For the chess game, here are the updates I made so far in this Github link:
 https://github.com/souhailOUARGUI/pharo-chess.git
 
 ### Mohammad Hossein ESLAHI
+
+
+#### 1. Objectifs de la semaine
+* Initialiser la démarche TDD pour le kata du pion (`MyPawnTest`).
+* Consolider les concepts de refactoring et de conception objet.
+* Valider l'environnement de travail sous Pharo 13.
+
+#### 2. Travail réalisé
+* **Projet Chess (TDD) :** création de la classe `MyPawnTest` dans `Myg-Chess-Tests` et rédaction des premiers tests pour spécifier les déplacements du pion.
+* **Théorie :** visionnage des vidéos du module 9 et des deux vidéos YouTube dédiées au refactoring.
+* **Environnement & Entraide :** migration finalisée sur Pharo 13. Partage d'une note sur le Discord Pharo expliquant le blocage Git lié à l'erreur `GH007` (protection d'e-mail GitHub) pour aider la promotion.
+
+#### 3. Remarques
+* Avec le volume réduit à 24h au lieu de 48h décidé par l'université, c'est dommage de manquer de temps : je commence tout juste à bien apprendre des principes comme « Don't ask, tell », mais le temps avant le DS est court pour les approfondir.
+
+#### 4. Prochaines étapes
+* Finaliser les tests unitaires du pion (avancée simple, double pas, captures et blocages).
+* Implémenter le comportement dans `MyPawn` pour passer les tests au vert en appliquant le refactoring vu en cours.
