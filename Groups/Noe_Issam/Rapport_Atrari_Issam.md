@@ -64,3 +64,17 @@ Et pour ça, j'ai gardé la même méthode que la semaine dernière (écrire des
 
 J'ai aussi revu les vidéos du module Composite/Visitor, parce que certains trucs m'étaient pas hyper clairs au début, notamment le fait de comprendre qui contrôle le parcours de l'arbre entre le visiteur et les objets eux-mêmes. Et en les regardant à nouveau, c'était beaucoup plus clair, en fait ça évite juste d'avoir à tester le type des objets un par un.
 
+
+
+**Semaine 5 :**
+
+Cette semaine, j'ai fait le kata "Add pawn promotion" sur le projet Chess. Quand un pion arrive sur la dernière rangée, il est maintenant remplacé par une dame. J'ai utilisé un hook : MyPiece appelle afterMoveTo: à la fin de moveTo: et seul le pion est redéfinit pour vérifier si il doit se promouvoir ou pas. Les différences entre pion blanc et pion noir sont gérées par des méthodes redéfinies dans MyWhitePawn et MyBlackPawn, donc sans if sur la couleur. Et comme d'hab, j'ai gardé la même méthode que les semaines précédentes, avec les tests écrits avant le code.
+
+
+
+En plus du kata de base, j'ai ajouté quelques ajustements. La pièce de promotion est configurable j'ai mis la dame par défaut mais on peut choisir une autre classe. J'ai aussi corrigé deux bugs apparus en jouant. Après une promotion, la dame ne pouvait plus bouger, car MySelectedState désélectionnait les mauvaises cases. Et MyNoPiece ne comprenait pas legalTargetSquares, ce qui bloquait la partie après quelques coups.
+
+
+
+Et j'ai aussi lu les 3 PDF demandés pour lect05 (Global to parameter, Singleton et Law of Demeter). 
+
